@@ -207,7 +207,7 @@ server.post("/curso", (req, res) => {
 
 });
 
-const local = true; // para ejecutar servidor local
+const local = false; // para ejecutar servidor local
 if (local) {
     server.listen((process.env.PORT || 8000), () => {
         console.log("Servidor funcionando");
